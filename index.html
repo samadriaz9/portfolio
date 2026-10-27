@@ -1,0 +1,1035 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samad Riaz | AI Engineer | LLMs, RAG &amp; ChromaDB</title>
+    <meta name="description" content="Samad Riaz is an AI engineer building production LLM and RAG systems with ChromaDB, plus computer vision, edge AI, and IoT. Projects, publications, and field systems.">
+    <meta name="keywords" content="Samad Riaz, LLM, RAG, ChromaDB, Machine Learning, Computer Vision, Edge AI">
+    <meta name="author" content="Samad Riaz">
+    <meta property="og:title" content="Samad Riaz | AI Engineer">
+    <meta property="og:description" content="LLMs, retrieval-augmented generation, and ChromaDB, with computer vision and edge AI.">
+    <meta property="og:image" content="Images/my_pic.png">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Samad Riaz | LLMs, RAG &amp; ChromaDB">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Samad Riaz",
+      "jobTitle": "AI Engineer",
+      "email": "samadriaz9@gmail.com",
+      "telephone": "+92-330-5922017",
+      "image": "Images/my_pic.png",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Peshawar",
+        "addressRegion": "Khyber Pakhtunkhwa",
+        "addressCountry": "Pakistan"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/samad-riaz-261919170",
+        "https://github.com/samadriaz9",
+        "https://samnol.com/"
+      ]
+    }
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <h2 class="logo-heading">Samad Riaz</h2>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars hamburger-icon"></i>
+                <i class="fas fa-times cross-icon"></i>
+            </div>
+            <div class="menu">
+                <ul class="menu-list">
+                    <li class="menu-list-items"><a class="links" href="#home">Home</a></li>
+                    <li class="menu-list-items"><a class="links" href="#about">About</a></li>
+                    <li class="menu-list-items"><a class="links" href="#experience">Experience</a></li>
+                    <li class="menu-list-items"><a class="links" href="#education">Education</a></li>
+                    <li class="menu-list-items"><a class="links" href="#skills">Skills</a></li>
+                    <li class="menu-list-items"><a class="links" href="#expertise">Expertise</a></li>
+                    <li class="menu-list-items"><a class="links" href="#research">Research</a></li>
+                    <li class="menu-list-items"><a class="links" href="#certifications">Certifications</a></li>
+                    <li class="menu-list-items"><a class="links" href="#services">Services</a></li>
+                    <li class="menu-list-items"><a class="links" href="#projects">Projects</a></li>
+                    <li class="menu-list-items"><a class="links" href="#publications">Publications</a></li>
+                    <li class="menu-list-items"><a class="links" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="my-heading hero-name">AI|ML Engineer &amp; Researcher</h1>
+                <p class="hero-description">MSc in AI and Electrical Engineer specializing in AI/ML, Deep Learning, and IoT. Experienced in CNNs, RNNs, Transformers, and Feature Engineering, with hands-on deployment of real-time AI-IoT solutions on Edge Devices.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn common-btn">Get In Touch</a>
+                    <a href="#projects" class="btn ghost-btn">View My Work</a>
+                </div>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/samad-riaz-261919170" class="social-link" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/samadriaz9" class="social-link" aria-label="GitHub" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                    <a href="mailto:samadriaz9@gmail.com" class="social-link" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <img src="Images/my_pic.png" alt="Samad Riaz" class="profile-image">
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#about"><i class="fas fa-chevron-down"></i></a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-heading">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="lead-para">I am an AI engineer with 4+ years delivering systems that leave the notebook. The current focus is large language models, retrieval-augmented generation, and ChromaDB: quizzes from class notes, meeting minutes, lecture notes, and exam checking.</p>
+                    <p>Documents are chunked, embedded, and stored in ChromaDB with metadata for the course, document, and date. The model answers from the passages retrieval returns. That pipeline sits behind SmartQuiz AI, the AI Meeting Assistant, Teacher Assistant, and E-checking on samnol.com.</p>
+                    <p>Alongside that, I have worked on the same vision and field projects as the rest of the team: water-safety kits, plant growth, surveillance, traffic, agriculture, and edge deployment on Raspberry Pi and Jetson Nano. Eight papers cover language, surveillance, water, agriculture, and retail.</p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <h3 class="stat-number">4+</h3>
+                            <p class="stat-label">Years Experience</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3 class="stat-number">20+</h3>
+                            <p class="stat-label">Projects Completed</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3 class="stat-number">8</h3>
+                            <p class="stat-label">Publications</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-heading">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <span class="timeline-date">Nov 2024 – Present</span>
+                        <h3 class="timeline-title">Machine Learning Engineer</h3>
+                        <h4 class="timeline-company">Centre for Intelligent Systems and Network Research (CISNR), UET Peshawar</h4>
+                        <p class="timeline-description">Integrated environmental sensors and actuators with computer-vision models for plant-growth optimisation. Doubled mushroom yield and improved reliability on further crops. Built a motorised microscopic-camera rig for a Lacuna-funded dataset project and cut manual capture and labelling by about half. In parallel, shipped LLM products with RAG over ChromaDB for classrooms and meetings.</p>
+                        <ul class="timeline-skills">
+                            <li>LLMs</li>
+                            <li>RAG</li>
+                            <li>ChromaDB</li>
+                            <li>Computer Vision</li>
+                            <li>Plant Growth</li>
+                            <li>Dataset Automation</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <span class="timeline-date">Oct 2023 – Oct 2024</span>
+                        <h3 class="timeline-title">Research Associate</h3>
+                        <h4 class="timeline-company">National Center of AI, UET Peshawar</h4>
+                        <p class="timeline-description">Early E. coli detection on DelAgua kits with computer vision, cutting time-to-result to about a third of culture testing at 90%+ colony detection. Built an earthquake early-warning pipeline with about five seconds of lead time, and flood alerts from water-level and flow sensing.</p>
+                        <ul class="timeline-skills">
+                            <li>YOLO</li>
+                            <li>Microscopy</li>
+                            <li>Water Safety</li>
+                            <li>Early Warning</li>
+                            <li>Edge Deployment</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <span class="timeline-date">Sep 2022 – Sep 2023</span>
+                        <h3 class="timeline-title">Junior AI Engineer</h3>
+                        <h4 class="timeline-company">Centre for Intelligent Systems and Network Research (CISNR), UET Peshawar</h4>
+                        <p class="timeline-description">Safe City deployment in Mardan: 16 cameras on one GPU workstation, about 99% recognition accuracy, with person recognition, crowd and event classification, and live city-safety video analytics.</p>
+                        <ul class="timeline-skills">
+                            <li>Multi-camera</li>
+                            <li>Person Recognition</li>
+                            <li>Surveillance</li>
+                            <li>GPU Inference</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <span class="timeline-date">Jul 2022 – Present</span>
+                        <h3 class="timeline-title">Freelance AI Engineer</h3>
+                        <h4 class="timeline-company">Fiverr &amp; Upwork</h4>
+                        <p class="timeline-description">End-to-end computer vision for international clients: YOLO, Faster R-CNN, CNNs, Stable Diffusion, and LoRA. Dataset engineering, training, and deployment on Raspberry Pi and Jetson Nano, with technical reports for each delivery.</p>
+                        <ul class="timeline-skills">
+                            <li>YOLO</li>
+                            <li>LoRA</li>
+                            <li>Raspberry Pi</li>
+                            <li>Jetson Nano</li>
+                            <li>Client Delivery</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-heading">Education</h2>
+            <div class="education-grid">
+                <div class="education-card">
+                    <div class="education-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <h3 class="education-degree">Master of Science (MS) in Artificial Intelligence</h3>
+                    <h4 class="education-school">University of Engineering and Technology, Peshawar</h4>
+                    <span class="education-year">2024 – 2026 · CGPA 3.8 / 4.0</span>
+                    <p class="education-description">Thesis: Intelligent Child Monitoring, a deep-learning pipeline for child detection and activity recognition in surveillance video. Published in IJIST, 2026.</p>
+                </div>
+                <div class="education-card">
+                    <div class="education-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <h3 class="education-degree">Bachelor of Science (BSc) in Electrical Communication Engineering</h3>
+                    <h4 class="education-school">University of Engineering and Technology, Peshawar</h4>
+                    <span class="education-year">2018 – 2022 · CGPA 3.5 / 4.0</span>
+                    <p class="education-description">Thesis, team lead: intelligent IoT weighing scale for fruit and vegetable retail. Published in Applied Sciences, 2023.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-heading">Skills &amp; Technologies</h2>
+            <p class="section-subtitle">Large language models, retrieval over ChromaDB, and the vision and edge stack behind the field systems.</p>
+            <div class="skills-categories masonry-grid">
+                <div class="skill-category-card">
+                    <div class="skill-category-header">
+                        <div class="skill-category-icon"><i class="fas fa-comments"></i></div>
+                        <h3 class="skill-category-title">LLMs, RAG &amp; ChromaDB</h3>
+                    </div>
+                    <div class="skill-badges">
+                        <span class="skill-badge">ChromaDB</span>
+                        <span class="skill-badge">RAG</span>
+                        <span class="skill-badge">LangChain</span>
+                        <span class="skill-badge">LangGraph</span>
+                        <span class="skill-badge">FAISS</span>
+                        <span class="skill-badge">Hugging Face</span>
+                        <span class="skill-badge">LoRA / QLoRA</span>
+                        <span class="skill-badge">Whisper</span>
+                        <span class="skill-badge">OpenAI &amp; Gemini APIs</span>
+                        <span class="skill-badge">CrewAI</span>
+                        <span class="skill-badge">AutoGen</span>
+                        <span class="skill-badge">MCP</span>
+                    </div>
+                </div>
+                <div class="skill-category-card">
+                    <div class="skill-category-header">
+                        <div class="skill-category-icon"><i class="fas fa-code"></i></div>
+                        <h3 class="skill-category-title">Core Programming</h3>
+                    </div>
+                    <div class="skill-badges">
+                        <span class="skill-badge">Python (Advanced)</span>
+                        <span class="skill-badge">C/C++</span>
+                        <span class="skill-badge">SQL</span>
+                        <span class="skill-badge">JavaScript</span>
+                        <span class="skill-badge">MATLAB</span>
+                        <span class="skill-badge">Bash</span>
+                    </div>
+                </div>
+                <div class="skill-category-card">
+                    <div class="skill-category-header">
+                        <div class="skill-category-icon"><i class="fas fa-brain"></i></div>
+                        <h3 class="skill-category-title">ML, DL &amp; Data Science</h3>
+                    </div>
+                    <div class="skill-badges">
+                        <span class="skill-badge">PyTorch</span>
+                        <span class="skill-badge">TensorFlow</span>
+                        <span class="skill-badge">Keras</span>
+                        <span class="skill-badge">Scikit-learn</span>
+                        <span class="skill-badge">Pandas</span>
+                        <span class="skill-badge">NumPy</span>
+                    </div>
+                </div>
+                <div class="skill-category-card">
+                    <div class="skill-category-header">
+                        <div class="skill-category-icon"><i class="fas fa-eye"></i></div>
+                        <h3 class="skill-category-title">Computer Vision</h3>
+                    </div>
+                    <div class="skill-badges">
+                        <span class="skill-badge">OpenCV</span>
+                        <span class="skill-badge">YOLO</span>
+                        <span class="skill-badge">Faster R-CNN</span>
+                        <span class="skill-badge">Vision Transformers</span>
+                        <span class="skill-badge">VideoMAE</span>
+                        <span class="skill-badge">Object Detection</span>
+                    </div>
+                </div>
+                <div class="skill-category-card">
+                    <div class="skill-category-header">
+                        <div class="skill-category-icon"><i class="fas fa-microchip"></i></div>
+                        <h3 class="skill-category-title">Edge AI &amp; Embedded Systems</h3>
+                    </div>
+                    <div class="skill-badges">
+                        <span class="skill-badge">Raspberry Pi</span>
+                        <span class="skill-badge">NVIDIA Jetson</span>
+                        <span class="skill-badge">Arduino</span>
+                        <span class="skill-badge">IP Cameras</span>
+                        <span class="skill-badge">ONNX</span>
+                        <span class="skill-badge">TensorRT</span>
+                        <span class="skill-badge">CUDA</span>
+                    </div>
+                </div>
+                <div class="skill-category-card">
+                    <div class="skill-category-header">
+                        <div class="skill-category-icon"><i class="fas fa-server"></i></div>
+                        <h3 class="skill-category-title">Serving &amp; Product</h3>
+                    </div>
+                    <div class="skill-badges">
+                        <span class="skill-badge">FastAPI</span>
+                        <span class="skill-badge">Flask</span>
+                        <span class="skill-badge">Docker</span>
+                        <span class="skill-badge">Linux</span>
+                        <span class="skill-badge">AWS</span>
+                        <span class="skill-badge">nginx</span>
+                        <span class="skill-badge">Git</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="expertise" class="expertise">
+        <div class="container">
+            <h2 class="section-heading">Core Expertise</h2>
+            <p class="section-subtitle">Language models and retrieval first, then the vision and edge work those products sit beside.</p>
+            <div class="expertise-grid">
+                <div class="expertise-card">
+                    <div class="expertise-icon"><i class="fas fa-database"></i></div>
+                    <h3 class="expertise-title">RAG &amp; ChromaDB</h3>
+                    <ul class="expertise-list">
+                        <li>Chunking notes, lectures, and model answers</li>
+                        <li>Embeddings and persistent ChromaDB collections</li>
+                        <li>Metadata filters by course, document, and date</li>
+                        <li>Top-k retrieval before generation</li>
+                        <li>Grounded answers with the source chunk</li>
+                        <li>FAISS when a local index is enough</li>
+                    </ul>
+                </div>
+                <div class="expertise-card">
+                    <div class="expertise-icon"><i class="fas fa-language"></i></div>
+                    <h3 class="expertise-title">Large Language Models</h3>
+                    <ul class="expertise-list">
+                        <li>Quizzes, minutes, study notes, and grading</li>
+                        <li>Whisper transcription</li>
+                        <li>OpenAI and Gemini APIs</li>
+                        <li>Hugging Face Transformers</li>
+                        <li>LoRA / QLoRA adaptation</li>
+                        <li>LangChain, LangGraph, CrewAI, AutoGen</li>
+                    </ul>
+                </div>
+                <div class="expertise-card">
+                    <div class="expertise-icon"><i class="fas fa-eye"></i></div>
+                    <h3 class="expertise-title">Computer Vision</h3>
+                    <ul class="expertise-list">
+                        <li>Object detection and YOLO</li>
+                        <li>Colony counting and microscopy</li>
+                        <li>Face and person recognition</li>
+                        <li>License plate recognition</li>
+                        <li>Growth-stage and leaf analysis</li>
+                        <li>Real-time multi-camera inference</li>
+                    </ul>
+                </div>
+                <div class="expertise-card">
+                    <div class="expertise-icon"><i class="fas fa-microchip"></i></div>
+                    <h3 class="expertise-title">Embedded AI &amp; IoT</h3>
+                    <ul class="expertise-list">
+                        <li>Raspberry Pi and Jetson Nano</li>
+                        <li>Sensor and actuator integration</li>
+                        <li>Motorised microscope stages</li>
+                        <li>Edge deployment and ONNX / TensorRT</li>
+                        <li>Cloud dashboards and alerts</li>
+                    </ul>
+                </div>
+                <div class="expertise-card">
+                    <div class="expertise-icon"><i class="fas fa-seedling"></i></div>
+                    <h3 class="expertise-title">Field Systems</h3>
+                    <ul class="expertise-list">
+                        <li>Water-safety kits</li>
+                        <li>Smart agriculture and incubators</li>
+                        <li>Safe City surveillance</li>
+                        <li>Flood and earthquake alerts</li>
+                        <li>Retail weighing and quality sorting</li>
+                    </ul>
+                </div>
+                <div class="expertise-card">
+                    <div class="expertise-icon"><i class="fas fa-code"></i></div>
+                    <h3 class="expertise-title">Product Engineering</h3>
+                    <ul class="expertise-list">
+                        <li>FastAPI and Node backends</li>
+                        <li>Auth and production hosting</li>
+                        <li>Classroom and office SaaS</li>
+                        <li>English and Urdu outputs</li>
+                        <li>SolidWorks and 3D-printed rigs</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="research" class="research">
+        <div class="container">
+            <h2 class="section-heading">Research Interests</h2>
+            <p class="section-subtitle">What the papers and the products are both about</p>
+            <div class="research-grid">
+                <div class="research-item">
+                    <div class="research-icon"><i class="fas fa-comments"></i></div>
+                    <h3 class="research-title">Large Language Models</h3>
+                    <p class="research-description">Models that write minutes, quizzes, notes, and grades, and stay inside the documents they were given.</p>
+                </div>
+                <div class="research-item">
+                    <div class="research-icon"><i class="fas fa-search"></i></div>
+                    <h3 class="research-title">Retrieval-Augmented Generation</h3>
+                    <p class="research-description">Chunk, embed, retrieve, then generate. The answer cites the passage it used.</p>
+                </div>
+                <div class="research-item">
+                    <div class="research-icon"><i class="fas fa-database"></i></div>
+                    <h3 class="research-title">ChromaDB &amp; Vector Search</h3>
+                    <p class="research-description">Persistent collections per class, meeting, or exam, with metadata filters before the model speaks.</p>
+                </div>
+                <div class="research-item">
+                    <div class="research-icon"><i class="fas fa-camera"></i></div>
+                    <h3 class="research-title">Computer Vision</h3>
+                    <p class="research-description">Detection, activity recognition, colony counting, and growth-stage analysis on real cameras.</p>
+                </div>
+                <div class="research-item">
+                    <div class="research-icon"><i class="fas fa-tint"></i></div>
+                    <h3 class="research-title">Water &amp; Public Health</h3>
+                    <p class="research-description">Field kits that shorten E. coli detection for drinking water in Peshawar and Swat.</p>
+                </div>
+                <div class="research-item">
+                    <div class="research-icon"><i class="fas fa-seedling"></i></div>
+                    <h3 class="research-title">Agriculture &amp; Sensing</h3>
+                    <p class="research-description">Growth-stage models tied to cameras, sensors, and actuators, including controlled incubators.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-heading">Certifications</h2>
+            <p class="section-subtitle">Training that sits under the LLM and vision work</p>
+            <div class="certifications-grid compact-certs">
+                <div class="certification-card compact">
+                    <div class="cert-content">
+                        <h3 class="cert-title">LLMs, RAG, LangGraph, MCP, CrewAI &amp; AutoGen</h3>
+                        <p class="cert-issuer">Udemy, 2026</p>
+                        <p class="cert-description">Agents, retrieval, and the OpenAI Agents SDK.</p>
+                    </div>
+                </div>
+                <div class="certification-card compact">
+                    <div class="cert-content">
+                        <h3 class="cert-title">Neural Networks and Deep Learning</h3>
+                        <p class="cert-issuer">Coursera, 2021</p>
+                        <p class="cert-description">Foundations of deep learning and neural networks.</p>
+                    </div>
+                </div>
+                <div class="certification-card compact">
+                    <div class="cert-content">
+                        <h3 class="cert-title">TensorFlow for AI, ML, and Deep Learning</h3>
+                        <p class="cert-issuer">Coursera, 2021</p>
+                        <p class="cert-description">TensorFlow workflows for machine learning.</p>
+                    </div>
+                </div>
+                <div class="certification-card compact">
+                    <div class="cert-content">
+                        <h3 class="cert-title">Python for Data Science, AI &amp; Development</h3>
+                        <p class="cert-issuer">Coursera, 2020</p>
+                        <p class="cert-description">Python for data and AI work.</p>
+                    </div>
+                </div>
+                <div class="certification-card compact">
+                    <div class="cert-content">
+                        <h3 class="cert-title">IoT and Embedded Systems</h3>
+                        <p class="cert-issuer">Coursera</p>
+                        <p class="cert-description">Embedded systems and connected devices.</p>
+                    </div>
+                </div>
+                <div class="certification-card compact">
+                    <div class="cert-content">
+                        <h3 class="cert-title">The Arduino Platform and C Programming</h3>
+                        <p class="cert-issuer">Coursera, 2021</p>
+                        <p class="cert-description">Arduino and embedded C.</p>
+                    </div>
+                </div>
+                <div class="certification-card compact">
+                    <div class="cert-content">
+                        <h3 class="cert-title">C++ Programming</h3>
+                        <p class="cert-issuer">Saylor.org</p>
+                        <p class="cert-description">CS107 C++ programming.</p>
+                    </div>
+                </div>
+                <div class="certification-card compact">
+                    <div class="cert-content">
+                        <h3 class="cert-title">Introduction to Programming with MATLAB</h3>
+                        <p class="cert-issuer">Coursera, 2021</p>
+                        <p class="cert-description">MATLAB for engineering computation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services-section">
+        <div class="container">
+            <h2 class="section-heading">Services</h2>
+            <p class="section-subtitle">LLM products, retrieval on your own documents, and vision systems that run in the field</p>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-database"></i></div>
+                    <h3 class="service-title">RAG &amp; ChromaDB</h3>
+                    <p class="service-description">A retrieval pipeline in front of the model. Your notes, policies, or model answers become the only source the model is allowed to use.</p>
+                    <ul class="service-features">
+                        <li>Document ingest and chunking</li>
+                        <li>ChromaDB collections and metadata</li>
+                        <li>Grounded question answering</li>
+                        <li>Citations back to the source chunk</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-comments"></i></div>
+                    <h3 class="service-title">LLM Applications</h3>
+                    <p class="service-description">Meetings, quizzes, lecture notes, and exam checking. Speech in, a document people can use the same day out.</p>
+                    <ul class="service-features">
+                        <li>Whisper transcription</li>
+                        <li>Minutes, quizzes, and study notes</li>
+                        <li>Handwriting OCR and grading</li>
+                        <li>English and Urdu outputs</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-eye"></i></div>
+                    <h3 class="service-title">Computer Vision</h3>
+                    <p class="service-description">Detection, recognition, and counting for cameras that stay on. The same stack used for water, plants, traffic, and surveillance.</p>
+                    <ul class="service-features">
+                        <li>YOLO and Faster R-CNN</li>
+                        <li>Dataset collection and training</li>
+                        <li>Multi-camera GPU inference</li>
+                        <li>Edge deployment</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-microchip"></i></div>
+                    <h3 class="service-title">Edge AI &amp; IoT</h3>
+                    <p class="service-description">Models on Raspberry Pi and Jetson Nano, with the sensors, actuators, and enclosures the deployment actually needs.</p>
+                    <ul class="service-features">
+                        <li>Raspberry Pi and Jetson Nano</li>
+                        <li>Sensor and camera integration</li>
+                        <li>Alerts and dashboards</li>
+                        <li>SolidWorks and 3D-printed rigs</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-heading">Featured Projects</h2>
+            <p style="text-align: center; color: var(--text-light); margin-bottom: 3rem;">LLM and RAG products first, then the vision, IoT, and robotics projects I have shipped with the same team.</p>
+            <div class="projects-grid">
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Images/smart_quiz_ai.png" alt="SmartQuiz AI sign-in for teachers and students" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">SmartQuiz AI</h3>
+                        <p class="project-description">Live classroom quizzes. Teachers upload notes, students join with a code, and the leaderboard updates in class. Note text is chunked, embedded, and stored in ChromaDB. Questions are written from the passages that match the topic.</p>
+                        <div class="project-tech">
+                            <span class="project-tag">RAG</span>
+                            <span class="project-tag">ChromaDB</span>
+                            <span class="project-tag">LLM</span>
+                            <span class="project-tag">FastAPI</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Images/AI meeting Assistant.png" alt="AI Meeting Assistant with saved transcripts and PDF minutes" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">AI Meeting Assistant</h3>
+                        <p class="project-description">Record the room. Whisper turns speech into a transcript, and a language model returns minutes, decisions, and action items as a PDF. Earlier meetings stay searchable for follow-up questions.</p>
+                        <div class="project-tech">
+                            <span class="project-tag">Whisper</span>
+                            <span class="project-tag">LLM</span>
+                            <span class="project-tag">RAG</span>
+                            <span class="project-tag">ChromaDB</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Images/E_Checking.png" alt="E-checking dashboard for handwriting OCR and grading" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">E-checking</h3>
+                        <p class="project-description">Answer sheets are read as handwriting. Model answers sit in ChromaDB. The grader retrieves the marking scheme and scores the student text against it, then flags low-confidence papers for a teacher.</p>
+                        <div class="project-tech">
+                            <span class="project-tag">OCR</span>
+                            <span class="project-tag">RAG</span>
+                            <span class="project-tag">LLM</span>
+                            <span class="project-tag">ChromaDB</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Images/automation_of_microbial_analysis.png" alt="Motorised microscope rig for automated microbial image capture" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Automated Microbial Analysis</h3>
+                        <p class="project-description">Motorised microscopic-camera rig for a Lacuna-funded dataset project. Stages, cameras, and capture software cut manual labelling and imaging effort by about half for colony and water-sample work.</p>
+                        <div class="project-tech">
+                            <span class="project-tag">Microscopy</span>
+                            <span class="project-tag">Automation</span>
+                            <span class="project-tag">Computer Vision</span>
+                            <span class="project-tag">SolidWorks</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder"><i class="fas fa-chalkboard"></i></div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Teacher Assistant</h3>
+                        <p class="project-description">Lecture audio in. Structured study-note PDFs out, in English and Urdu. Later questions stay tied to that lecture through retrieval.</p>
+                        <div class="project-tech">
+                            <span class="project-tag">Whisper</span>
+                            <span class="project-tag">LLM</span>
+                            <span class="project-tag">RAG</span>
+                            <span class="project-tag">Urdu</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder"><i class="fas fa-square-root-alt"></i></div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">AI Smart Blackboard</h3>
+                        <p class="project-description">One canvas for drawing, math recognition, graphs, 3D models, and a lecture PDF the class can take home.</p>
+                        <div class="project-tech">
+                            <span class="project-tag">LLM</span>
+                            <span class="project-tag">Math OCR</span>
+                            <span class="project-tag">Education</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Images/robot_pic.png" alt="Autonomous mobile robot" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Autonomous Mobile Robot</h3>
+                        <p class="project-description">Autonomous mobile vacuum robot for trash collection on Raspberry Pi and Arduino. LIDAR SLAM and ROS2 for mapping and obstacle avoidance, with OpenCV trash detection and Gazebo / RViz validation.</p>
+                        <div class="project-tech">
+                            <span class="project-tag">ROS2</span>
+                            <span class="project-tag">SLAM</span>
+                            <span class="project-tag">OpenCV</span>
+                            <span class="project-tag">Raspberry Pi</span>
+                            <span class="project-tag">LIDAR</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Images/rms.png" alt="Road and traffic monitoring" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Road Management &amp; Traffic Monitoring</h3>
+                        <p class="project-description">Vehicle detection, classification, license plate recognition, and traffic analysis for Safe City work. CNN and YOLO models trained on curated urban video, with live dashboards.</p>
+                        <div class="project-tech">
+                            <span class="project-tag">YOLO</span>
+                            <span class="project-tag">ALPR</span>
+                            <span class="project-tag">Computer Vision</span>
+                            <span class="project-tag">CNNs</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Images/plant.png" alt="Plant growth imaging for agriculture" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">AI in Agriculture</h3>
+                        <p class="project-description">Plant health, growth stage, and yield models across incubator, greenhouse, and open field. Sensor time series plus images, with CNNs for growth-stage and food-quality detection. Published at AIAI 2025.</p>
+                        <div class="project-tech">
+                            <span class="project-tag">CNNs</span>
+                            <span class="project-tag">YOLO</span>
+                            <span class="project-tag">IoT</span>
+                            <span class="project-tag">Smart Agriculture</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Images/water.png" alt="Water quality monitoring device" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Water Quality Monitoring</h3>
+                        <p class="project-description">Field computer-vision kit for rapid E. coli detection on drinking-water samples. Microscopy and YOLO counting, with chemical sensing, GPS, and cloud dashboards. Published in IJIST and IEEE ICET.</p>
+                        <div class="project-tech">
+                            <span class="project-tag">YOLO</span>
+                            <span class="project-tag">Microscopy</span>
+                            <span class="project-tag">IoT</span>
+                            <span class="project-tag">Raspberry Pi</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Images/attendance system.png" alt="Face recognition attendance" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Face Recognition Attendance</h3>
+                        <p class="project-description">Real-time face attendance for campus and office use, including the EduSecure dashboard: enrollment, verification, and logs with time and place.</p>
+                        <div class="project-tech">
+                            <span class="project-tag">Face Recognition</span>
+                            <span class="project-tag">Computer Vision</span>
+                            <span class="project-tag">Deep Learning</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Images/3d detection.png" alt="3D object detection for vehicles" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Autonomous Vehicle 3D Detection</h3>
+                        <p class="project-description">3D object detection on point clouds, with Pandaset converted toward KITTI and a comparison of PointRCNN, PV-RCNN, SECOND, and CenterPoint for vehicles and pedestrians.</p>
+                        <div class="project-tech">
+                            <span class="project-tag">3D Detection</span>
+                            <span class="project-tag">PointRCNN</span>
+                            <span class="project-tag">KITTI</span>
+                            <span class="project-tag">Point Clouds</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Images/fruit.png" alt="Fruit and vegetable quality sorting" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Fruit &amp; Vegetable Sorting</h3>
+                        <p class="project-description">CNN sorting for freshness, quality, and ripeness, aimed at cutting post-harvest waste. Related retail work includes the intelligent IoT weighing scale published in Applied Sciences.</p>
+                        <div class="project-tech">
+                            <span class="project-tag">CNNs</span>
+                            <span class="project-tag">Quality Inspection</span>
+                            <span class="project-tag">IoT</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Images/weapon detection.png" alt="Weapon detection in surveillance video" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Weapon Detection</h3>
+                        <p class="project-description">YOLOv5 trained across weapon classes for surveillance video, with inference tuned for live monitoring.</p>
+                        <div class="project-tech">
+                            <span class="project-tag">YOLOv5</span>
+                            <span class="project-tag">Surveillance</span>
+                            <span class="project-tag">Real-time</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Images/dryer.png" alt="Industrial fruit drying system" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Industrial Fruit Drying</h3>
+                        <p class="project-description">Large-scale drying with temperature, humidity, and airflow sensing, plus computer vision that flags spoiled fruit during the run.</p>
+                        <div class="project-tech">
+                            <span class="project-tag">IoT</span>
+                            <span class="project-tag">Computer Vision</span>
+                            <span class="project-tag">Automation</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Images/flood.png" alt="Flood monitoring" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Early Flood Prediction &amp; Alerts</h3>
+                        <p class="project-description">Flood alerts from water-level sensing, flow, and computer vision, tuned for conditions in the Swat region so warnings go out before the water arrives.</p>
+                        <div class="project-tech">
+                            <span class="project-tag">Computer Vision</span>
+                            <span class="project-tag">IoT</span>
+                            <span class="project-tag">Time Series</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Images/emotion.png" alt="Face emotion recognition" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Face Emotion Recognition</h3>
+                        <p class="project-description">Emotion from face and speech with ResNet50 and MobileNetV2: happy, sad, surprise, and fear, in real time.</p>
+                        <div class="project-tech">
+                            <span class="project-tag">ResNet50</span>
+                            <span class="project-tag">MobileNetV2</span>
+                            <span class="project-tag">Multimodal</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Images/ocr.png" alt="OCR with bounding boxes" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">OCR with Bounding Boxes</h3>
+                        <p class="project-description">Line-level boxes on scanned pages, then recognition, so printed and handwritten text can be located and read. The same OCR path feeds E-checking.</p>
+                        <div class="project-tech">
+                            <span class="project-tag">OCR</span>
+                            <span class="project-tag">Document Processing</span>
+                            <span class="project-tag">Computer Vision</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Images/lane.png" alt="Lane detection" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Lane Detection</h3>
+                        <p class="project-description">Real-time lane lines for driver assistance, using edges, Hough transforms, and polynomial fits across changing road conditions.</p>
+                        <div class="project-tech">
+                            <span class="project-tag">OpenCV</span>
+                            <span class="project-tag">ADAS</span>
+                            <span class="project-tag">Real-time</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Images/image-stitching.png" alt="Panoramic image stitching" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Image Stitching</h3>
+                        <p class="project-description">Overlapping photos stitched into a panorama with feature matching, homography, and blending.</p>
+                        <div class="project-tech">
+                            <span class="project-tag">SIFT</span>
+                            <span class="project-tag">OpenCV</span>
+                            <span class="project-tag">Image Processing</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Images/pca.png" alt="Principal component analysis plot" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Principal Component Analysis</h3>
+                        <p class="project-description">PCA for dimensionality reduction and feature extraction, keeping the variance that later models actually use.</p>
+                        <div class="project-tech">
+                            <span class="project-tag">PCA</span>
+                            <span class="project-tag">Feature Engineering</span>
+                            <span class="project-tag">Machine Learning</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="publications" class="publications">
+        <div class="container">
+            <h2 class="section-heading">Publications</h2>
+            <div class="publications-list">
+                <div class="publication-item">
+                    <div class="publication-icon"><i class="fas fa-book"></i></div>
+                    <div class="publication-content">
+                        <h3 class="publication-title">An End-to-End Deep Learning Pipeline for Child Detection and Activity Recognition in Surveillance Systems</h3>
+                        <p class="publication-authors"><strong>S. Riaz</strong>, S. Riaz, A. Razzaq, U. Sadique, S. Bashir, and J. U. Rahman (2026)</p>
+                        <p class="publication-venue">International Journal of Innovations in Science &amp; Technology. doi:10.33411/ijist/1873</p>
+                        <a href="https://journal.50sea.com/index.php/IJIST/article/view/1873" class="publication-link" target="_blank" rel="noopener noreferrer">View Publication <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="publication-item">
+                    <div class="publication-icon"><i class="fas fa-book"></i></div>
+                    <div class="publication-content">
+                        <h3 class="publication-title">Water Safety Under the Lens: A Field Survey and Rapid AI-Powered Escherichia coli Detection in Peshawar and Swat Regions</h3>
+                        <p class="publication-authors">J. U. Rahman, M. A. Shah, S. Aziz, <strong>S. Riaz</strong>, and G. M. Khan (2025)</p>
+                        <p class="publication-venue">IEEE ICET 2025. doi:10.1109/ICET66147.2025.11321364</p>
+                        <a href="https://doi.org/10.1109/ICET66147.2025.11321364" class="publication-link" target="_blank" rel="noopener noreferrer">View Publication <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="publication-item">
+                    <div class="publication-icon"><i class="fas fa-book"></i></div>
+                    <div class="publication-content">
+                        <h3 class="publication-title">Exchange Rate Volatility Forecasting Using Hybrid Models</h3>
+                        <p class="publication-authors">F. Ali, <strong>S. Riaz</strong>, and L. Ahmed (2025)</p>
+                        <p class="publication-venue">IEEE ICET 2025. doi:10.1109/ICET66147.2025.11321402</p>
+                        <a href="https://doi.org/10.1109/ICET66147.2025.11321402" class="publication-link" target="_blank" rel="noopener noreferrer">View Publication <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="publication-item">
+                    <div class="publication-icon"><i class="fas fa-book"></i></div>
+                    <div class="publication-content">
+                        <h3 class="publication-title">Computer Vision-Based Plant Growth Stages Analysis for Optimizing Crop Yield</h3>
+                        <p class="publication-authors">T. Arif, <strong>S. Riaz</strong>, Z. Shafiq, and G. M. Khan (2025)</p>
+                        <p class="publication-venue">AIAI 2025, IFIP AICT 754, Springer. doi:10.1007/978-3-031-97313-0_22</p>
+                        <a href="https://doi.org/10.1007/978-3-031-97313-0_22" class="publication-link" target="_blank" rel="noopener noreferrer">View Publication <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="publication-item">
+                    <div class="publication-icon"><i class="fas fa-file-alt"></i></div>
+                    <div class="publication-content">
+                        <h3 class="publication-title">TransLSTM: A Hybrid LSTM–Transformer Model for Fine-Grained Suggestion Mining</h3>
+                        <p class="publication-authors"><strong>S. Riaz</strong>, A. Saghir, M. J. Khan, H. Khan, H. S. Khan, and M. J. Khan (2024) · First author</p>
+                        <p class="publication-venue">Natural Language Processing Journal, 100089. doi:10.1016/j.nlp.2024.100089</p>
+                        <a href="https://doi.org/10.1016/j.nlp.2024.100089" class="publication-link" target="_blank" rel="noopener noreferrer">View Publication <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="publication-item">
+                    <div class="publication-icon"><i class="fas fa-book"></i></div>
+                    <div class="publication-content">
+                        <h3 class="publication-title">Drinking Water Monitoring: Computer Vision Kit for Early E. coli Detection</h3>
+                        <p class="publication-authors">M. Khan, <strong>S. Riaz</strong>, and G. M. Khan (2024)</p>
+                        <p class="publication-venue">International Journal of Innovations in Science &amp; Technology, 6(5), 248–256. doi:10.33411/ijist/801</p>
+                        <a href="https://journal.50sea.com/index.php/IJIST/article/view/801" class="publication-link" target="_blank" rel="noopener noreferrer">View Publication <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="publication-item">
+                    <div class="publication-icon"><i class="fas fa-book"></i></div>
+                    <div class="publication-content">
+                        <h3 class="publication-title">Stress Detection and Prediction Using CNNs from Electrocardiogram Signals</h3>
+                        <p class="publication-authors">J. U. Rahman, <strong>S. Riaz</strong>, and Salma (2024)</p>
+                        <p class="publication-venue">International Journal of Innovations in Science &amp; Technology, 6(5), 207–215</p>
+                        <a href="https://journal.50sea.com/index.php/IJIST/article/view/795" class="publication-link" target="_blank" rel="noopener noreferrer">View Publication <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="publication-item">
+                    <div class="publication-icon"><i class="fas fa-book"></i></div>
+                    <div class="publication-content">
+                        <h3 class="publication-title">Revolutionizing Small-Scale Retail: An Intelligent IoT-based Scale for Fruits and Vegetables Shops</h3>
+                        <p class="publication-authors">A. Zargham, I. Ul Haq, T. Alshloul, <strong>S. Riaz</strong>, G. Husnain, M. Assam, Y. Y. Ghadi, and H. G. Mohamed (2023)</p>
+                        <p class="publication-venue">Applied Sciences, 13(14), 8092. doi:10.3390/app13148092</p>
+                        <a href="https://doi.org/10.3390/app13148092" class="publication-link" target="_blank" rel="noopener noreferrer">View Publication <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-heading">Get In Touch</h2>
+            <p class="contact-subtitle">LLM products, a RAG pipeline on your documents, or a vision system for the field.</p>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p><a href="mailto:samadriaz9@gmail.com">samadriaz9@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p><a href="tel:+923305922017">+92 330 5922017</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>Peshawar, Khyber Pakhtunkhwa, Pakistan</p>
+                        </div>
+                    </div>
+                    <div class="contact-social">
+                        <a href="https://www.linkedin.com/in/samad-riaz-261919170" class="contact-social-link" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/samadriaz9" class="contact-social-link" aria-label="GitHub" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                        <a href="mailto:samadriaz9@gmail.com" class="contact-social-link" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="subject" class="form-control" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn common-btn form-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; <span id="currentYear"></span> Samad Riaz. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/samad-riaz-261919170" class="footer-link" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/samadriaz9" class="footer-link" aria-label="GitHub" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                    <a href="https://samnol.com/" class="footer-link" aria-label="SAMNOL" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
